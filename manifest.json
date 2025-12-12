@@ -1,7 +1,7 @@
 {
   "name": "Deltarune",
   "short_name": "Deltarune",
-  "start_url": "./index.html",
+  "start_url": "./index.html/?pwa",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#121212",
