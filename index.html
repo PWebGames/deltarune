@@ -167,7 +167,7 @@
   <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    if(!urlParams.get("pwa")) {
+    if(!urlParams.get("pwa") || window.location.protocal == "data:") {
       document.body.innerHTML = "<h1>This Game Is Protected From URL Stealing Please Launch In The App</h1>";
     }
   </script>
